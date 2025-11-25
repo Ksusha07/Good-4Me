@@ -85,7 +85,8 @@ body {
 .header__icon {
   width: 18px;
   height: 18px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   display: block;
   cursor: pointer;
 }
@@ -865,7 +866,8 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-bottom: 20px;
 }
 @media (max-width: 576px) {
@@ -1141,7 +1143,8 @@ body {
 .instagram__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
 }
 
@@ -1300,6 +1303,9 @@ body {
   padding: 8px 0;
   font-family: inherit;
 }
+.subscribe__input::-moz-placeholder {
+  color: #666;
+}
 .subscribe__input::placeholder {
   color: #666;
 }
@@ -1332,6 +1338,4 @@ body {
     border: 2px solid #F6623E;
     border-radius: 2px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
